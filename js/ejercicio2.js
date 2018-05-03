@@ -4,7 +4,7 @@ function codigo_html(){
     var texto= '<div class="row">\
                     <div class="col-2">Tabla del 1</div>\
                 ';
-                for(i=1;i<=10;i++){
+                for(i=1;i<=10;i=i+1){
                     texto+='<div class="col-1">';
                     texto+=i*1;
                     texto+='</div>';
